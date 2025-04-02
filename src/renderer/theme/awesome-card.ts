@@ -143,7 +143,13 @@ export const themes: Record<string, Theme> = {
       author: '00779A',
       background: '151515',
       symbol: '004490'
-  }
+  },
+  kaantheme: {
+  quote: 'FFA500',
+  author: 'FF8C00',
+  background: '000000',
+  symbol: 'FFA500'
+}
 };
 
 export const renderTheme = (theme: keyof typeof themes) => {
